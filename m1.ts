@@ -3,7 +3,7 @@ const cadenaDeTexto: string = "El éxito es aprender a ir de fracaso en fracaso 
 ​
 const textoSinEspacio = cadenaDeTexto.replace(/\s/g, '')
 const textoSinCaracteres = textoSinEspacio.replace(/[.,\s0-9%]/g, '') 
-console.log(textoSinEspacio.length);
+console.log("Total de letras sin espacios:",textoSinEspacio.length);
 let mayusculas: string [] = []
 ​
 for(let i = 0; i < textoSinCaracteres.length ; i++){
@@ -13,4 +13,4 @@ for(let i = 0; i < textoSinCaracteres.length ; i++){
 }
 ​
 console.log(mayusculas);
-console.log(mayusculas.length);
+console.log("Cantidad de letras mayúsculas:",mayusculas.length);
